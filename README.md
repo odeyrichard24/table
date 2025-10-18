@@ -1,0 +1,280 @@
+[index.html](https://github.com/user-attachments/files/22987265/index.html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">[Uploading style.css…]()
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="menu">
+        <ul class="menu-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Baze</a></li>
+            <li><a href="portals.html">Portals</a></li>
+            <li><a href="admission.html">Admission</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+    </nav>
+    <img src="https://bazeuniversity.edu.ng/static/media/logo.385bef27.png" alt="BAZE UNIVERSITY LOGO">
+    <h1>BAZE UNIVERSITY OF ABUJA.</h1>
+    <h2>LIST OF ADMITTED STUDENTS FOR 2024/2025 ACADEMIC SESSION</h2>
+    <p>2C44+7CR, Plot 686, Jabi
+Airport Road Bypass, Cadastral
+Zone, Abuja</p>
+    <h3>Tel: +234 904 225 0056  /
+Email: richhighlife73@gmail.com</h3>
+        <div class="table-wrap">
+            <table id="admissions" class="styled-table">
+                <thead>
+                    <tr>
+                        <th>S/N</th>
+                        <th>FULL NAME</th>
+                        <th>APPLICATION NO.</th>
+                        <th>DEPARTMENT</th>
+                        <th>SEX</th>
+                        <th>PHONE NUMBER</th>
+                        <th>STATUS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>odey richard</td>
+                        <td>021</td>
+                        <td>science</td>
+                        <td>Male</td>
+                        <td>080945623128</td>
+                        <td>ADMITTED</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>odey richard</td>
+                        <td>022</td>
+                        <td>science</td>
+                        <td>Male</td>
+                        <td>080945623129</td>
+                        <td>ADMITTED</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>odey richard</td>
+                        <td>023</td>
+                        <td>science</td>
+                        <td>Male</td>
+                        <td>080945623130</td>
+                        <td>ADMITTED</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>odey richard</td>
+                        <td>024</td>
+                        <td>science</td>
+                        <td>Male</td>
+                        <td>080945623131</td>
+                        <td>ADMITTED</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>odey richard</td>
+                        <td>024</td>
+                        <td>science</td>
+                        <td>Male</td>
+                        <td>080945623131</td>
+                        <td>ADMITTED</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>odey richard</td>
+                        <td>024</td>
+                        <td>science</td>
+                        <td>Male</td>
+                        <td>080945623131</td>
+                        <td>ADMITTED</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>odey richard</td>
+                        <td>024</td>
+                        <td>science</td>
+                        <td>Male</td>
+                        <td>080945623131</td>
+                        <td>ADMITTED</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>odey richard</td>
+                        <td>024</td>
+                        <td>science</td>
+                        <td>Male</td>
+                        <td>080945623131</td>
+                        <td>ADMITTED</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>odey richard</td>
+                        <td>024</td>
+                        <td>science</td>
+                        <td>Male</td>
+                        <td>080945623131</td>
+                        <td>ADMITTED</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>odey richard</td>
+                        <td>024</td>
+                        <td>science</td>
+                        <td>Male</td>
+                        <td>080945623131</td>
+                        <td>ADMITTED</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>odey richard</td>
+                        <td>024</td>
+                        <td>science</td>
+                        <td>Male</td>
+                        <td>080945623131</td>
+                        <td>ADMITTED</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>odey richard</td>
+                        <td>024</td>
+                        <td>science</td>
+                        <td>Male</td>
+                        <td>080945623131</td>
+                        <td>ADMITTED</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>odey richard</td>
+                        <td>024</td>
+                        <td>science</td>
+                        <td>Male</td>
+                        <td>080945623131</td>
+                        <td>ADMITTED</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>odey richard</td>
+                        <td>024</td>
+                        <td>science</td>
+                        <td>Male</td>
+                        <td>080945623131</td>
+                        <td>ADMITTED</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>odey richard</td>
+                        <td>024</td>
+                        <td>science</td>
+                        <td>Male</td>
+                        <td>080945623131</td>
+                        <td>ADMITTED</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>odey richard</td>
+                        <td>024</td>
+                        <td>science</td>
+                        <td>Male</td>
+                        <td>080945623131</td>
+                        <td>ADMITTED</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td>odey richard</td>
+                        <td>025</td>
+                        <td>science</td>
+                        <td>Male</td>
+                        <td>080945623132</td>
+                        <td>ADMITTED</td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td>odey richard</td>
+                        <td>026</td>
+                        <td>science</td>
+                        <td>Male</td>
+                        <td>080945623133</td>
+                        <td>ADMITTED</td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td>odey richard</td>
+                        <td>027</td>
+                        <td>science</td>
+                        <td>Male</td>
+                        <td>080945623134</td>
+                        <td>ADMITTED</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>odey richard</td>
+                        <td>028</td>
+                        <td>science</td>
+                        <td>Male</td>
+                        <td>080945623135</td>
+                        <td>ADMITTED</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <script>
+            // Make table rows clickable and toggle "selected" class.
+            (function(){
+                const table = document.getElementById('admissions');
+                if(!table) return;
+                const tbody = table.querySelector('tbody');
+                tbody.addEventListener('click', function(e){
+                    // find the clicked row
+                    const tr = e.target.closest('tr');
+                    if(!tr) return;
+                    // toggle selection on the clicked row; single-select behavior
+                    const previously = tbody.querySelector('tr.selected');
+                    if(previously && previously !== tr) previously.classList.remove('selected');
+                    tr.classList.toggle('selected');
+                });
+            })();
+        </script>
+        <body>
+  <!-- Your existing table or content here -->
+
+  <div style="text-align: center; margin-top: 20px;">
+    <a href="apply.html" class="apply-btn">Apply for Admission</a>
+  </div>
+
+  <script>
+    // your existing JavaScript code here
+  </script>
+</body>
+
+<!-- Hidden form -->
+<div id="applyForm" class="form-container" style="display:none;">
+  <h2>Admission Application Form</h2>
+  <form id="admissionForm">
+    <label>Full Name:</label>
+    <input type="text" name="name" required>
+
+    <label>Email:</label>
+    <input type="email" name="email" required>
+
+    <label>Phone:</label>
+    <input type="tel" name="phone" required>
+
+    <label>Program of Interest:</label>
+    <input type="text" name="program" required>
+
+    <button type="submit">Submit Application</button>
+  </form>
+</div>
+
+</body>
+</html>
