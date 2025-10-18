@@ -1,0 +1,189 @@
+body{
+    background-color: lightblue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Menu styles */
+.menu-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: right; /* spread items evenly */
+    align-items: right;
+    background: #da801a;
+    color: #fff;
+
+    flex-wrap: wrap; /* wrap on small screens */
+}
+.menu-list li{
+    margin: 0.5rem 0;
+}
+.menu-list a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    display: inline-block;
+}
+.menu-list a:hover{
+    background: #737c1e;
+    border-radius: 4px;
+}
+
+@media (min-width: 50px){
+    /* for wider screens keep items spread across the full width */
+    .menu-list{justify-content: space-between; padding: 0 7rem;}
+}
+h1{
+    color: #da801a;
+}
+h1:hover{
+    color: #e2c854;
+}
+p{
+    font-size: 1.2rem;
+    color: #da801a;
+    text-align: center;
+}
+h3{
+    background: #da801a; width:50%  ; margin: auto; padding: 10px; border-radius: 8px; color: white;
+}
+
+/* Table styles: zebra, hover size change, and selected (clicked) state */
+.table-wrap{
+    width: 90%;
+    max-width: 1100px;
+    margin: 1.5rem auto;
+    overflow-x: auto;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.styled-table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+.styled-table thead th{
+    background: #004080;
+    color: #fff;
+    padding: 0.75rem 0.5rem;
+    text-align: left;
+    position: sticky;
+    top: 0;
+}
+.styled-table tbody td{
+    padding: 0.65rem 0.5rem;
+    border-top: 1px solid #e6e6e6;
+}
+/* zebra */
+.styled-table tbody tr:nth-child(even){
+    background: #f7f9fc;
+}
+/* hover effect: slightly scale row and highlight */
+.styled-table tbody tr:hover{
+    transform: scale(1.01);
+    background: darkorange;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+.styled-table tbody tr{
+    transition: transform 120ms ease, background 120ms ease, box-shadow 120ms ease;
+}
+/* selected (clicked) row */
+.styled-table tbody tr.selected{
+    background: #d6e8ff !important;
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* make table adapt on small screens: stack cells */
+@media (max-width: 600px){
+    .styled-table thead{display:none}
+    .styled-table tbody td{display:block; width:100%; box-sizing:border-box}
+    .styled-table tbody tr{margin-bottom:0.75rem; display:block; border-radius:6px; overflow:hidden}
+}
+
+/* Boxed outer border and clear cell dividers */
+.table-wrap{
+    /* outer border: change color and width here */
+    border: 2px solid #004080; /* navy box around the table */
+    padding: 0.35rem; /* space between border and table */
+}
+.styled-table{
+    /* cell dividers: solid lines between cells */
+    border: 2px solid #cfcfcf; /* outer border for the table itself */
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: #e8f353;
+}
+.styled-table th,
+.styled-table td{
+    border-right: 1px solid #e6e6e6; /* vertical divider */
+}
+.styled-table th:last-child,
+.styled-table td:last-child{
+    border-right: none; /* no divider after last column */
+}
+.styled-table thead th{
+    border-bottom: 2px solid #cfcfcf; /* stronger divider under header */
+}
+
+/* If you prefer thicker or darker dividers, change the color above (e.g. #999) or width (e.g. 2px). */
+.apply-btn {
+  display: inline-block;
+  background-color: #da801a; /* Blue button */
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.apply-btn:hover {
+  background-color: rgba(112, 189, 219, 0.671); /* Darker blue on hover */
+}
+.apply-btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.apply-btn:hover {
+  background-color: #0056b3;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.form-container button {
+  background: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.form-container button:hover {
+  background: #218838;
+}
